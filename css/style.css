@@ -1,46 +1,123 @@
 body {
-  background-color: #EFF9FA;
-  box-sizing: border-box;
-  text-align: center;
+    background-color: #EFF9FA;
+    box-sizing: border-box;
+    text-align: center;
 }
 
 #title{
-  margin: auto;
-  background-color: #EFF9FA;
-  padding-block: 50px;
-  width:500px;
+  /* margin: auto; */
+  /* background-color: #EAECEB; */
+  padding-block: 20px;
+  /* width:500px; */
+  /* box-shadow: 0px 4px 8px #808080; */
   height:60px;
 }
 
 #title .main{
-  color: #450B24;
-  font-size: 40px;
+  margin: 0px auto 0px 0px;
+  color: #2f4f4f;
+  font-family: "Freestyle Script";
+  font-size: 50px;
   font-weight: bold;
-  height:20px;
+  height:28px;
 }
 
 #title .sub{
-  color: #450B24;
-  font-size: 20px;
-  font-weight: bold;
+  /* background-color: #EAECEB; */
+  color: #1895A3;
+  font-family: "Arial";
+  font-size: 14px;
+  /* font-weight: bold; */
 }
+
+#title .comment{
+  color: #450B24;
+  font-family: "Arial";
+  font-size: 10px;
+  /* font-weight: bold; */
+}
+
+
+#menu{
+  /* margin: auto; */
+  padding-block: 20px;
+  margin: 70px auto 5px 0px;
+  /* width:500px; */
+  /* box-shadow: 0px 4px 8px #808080; */
+  height:20px;
+}
+
+#menu .main{
+  margin: 70px auto 5px 0px;
+  padding-block: 20px;
+  font-family: "Freestyle Script";
+  font-size: 40px;
+  font:bold;
+  /* box-shadow: 0px 4px 8px #808080; */
+  height:20px;
+} 
+
+hr	{
+  margin: 60px auto 5px auto;
+  background-color:#2f4f5f;
+  width:98%;
+  height:0.5px;
+}
+
+a	{
+	text-decoration:none;
+}
+a:link	{
+	color : #000000;
+}
+a:visited	{
+	color : #000000;
+} 
+
+
+
+#subtitle{
+  /* margin: auto; */
+  margin: 30px auto 0px 15px;
+  /* background-color: #EFF9FA; */
+  padding-block: 10px;
+  /* width:500px; */
+  height:40px;
+}
+
+#subtitle .main{
+  color: #450B24;
+  font-family: "Arial";
+  font-size: 18px;
+  /* font-weight: bold; */
+  height:20px;
+}
+
+#subtitle .sub{
+  color: #450B24;
+  font-family: "Arial";
+  font-size: 16px;
+  /* font-weight: bold; */
+}
+
 
 #gallery {
   margin: auto;
-  padding-top: 40px;
+  padding-top: 10px;
   width: 650px;
 }
 
 #gallery .main img {
-  border: 2px solid #fff;
-  box-shadow: 0px 0px 14px #000;
+  border: 1px solid #fff;
+  box-shadow: 0px 5px 14px #000;
   width: 100%;
 }
 
 #gallery .main p {
   color: #450B24;
-  font-size: 20px;
-  font-weight: bold;
+  font-family: "Arial";
+  font-size: 16px;
+  /* font-weight: bold; */
 }
 
 #gallery .thumb img {
@@ -72,4 +149,10 @@ table .photo{
 
 }
 
+#comment {
+  margin: 50px auto 10px 20px;
+  color: #450B24;
+  font-family: "Arial";
+  text-align: center;
+  font-size: 13px;
 }
